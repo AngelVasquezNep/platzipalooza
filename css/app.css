@@ -1,0 +1,50 @@
+body{
+    background-color: #bd4452;
+    font-family: 'Bree Serif', serif;
+}
+
+h1,h2,h3, h4, h5, h6, button{
+    font-family: 'Bree Serif', serif;
+}
+
+li a:hover{
+    background-color: #1c3646;
+}
+
+#social-media a span{
+    color: white;
+    font-size: 1.4em;
+    transition: all .5s;
+}
+
+
+#social-media{
+    background-color: #1c3646;
+}
+
+#logo-container .callout{
+    background-color: #bd4452;
+    color: #fff;
+    margin: 0;
+}
+#menu-container{
+    background-color: #48a19d;
+}
+#menu-container li a{
+    color: #fff;
+}
+
+.submenu-container{
+    background-color: #48a19d;
+    color: #fff;
+    border:0;
+}
+
+
+
+
+
+#tickets-action button:hover{
+    background-color: #aedfdd;
+    border: 1px solid #dcdcdc;
+}
