@@ -28,14 +28,14 @@ li a:hover{
     margin: 0;
 }
 #menu-container{
-    background-color: #48a19d;
+    background-color: #21d8d0;
 }
 #menu-container li a{
     color: #fff;
 }
 
 .submenu-container{
-    background-color: #48a19d;
+    background-color: #21d8d0;
     color: #fff;
     border:0;
 }
@@ -48,3 +48,44 @@ li a:hover{
     background-color: #aedfdd;
     border: 1px solid #dcdcdc;
 }
+
+
+.callout{
+    margin: 0;
+}
+
+
+#lineup-container{
+    color: #fff;
+    padding: 1em 0;
+    background-color: #308dbf;
+}
+
+.tabs{
+    background-color: initial;
+    border: none;
+}
+
+.tabs-title{
+    display: inline-block;
+    float: none;
+}
+
+.tabs-title a{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.tabs-title a:hover{
+    color: #fff;
+    background-color: #308dbf;
+}
+
+.tabs-title.is-active a{
+    background-color: #308dbf;
+    color: #fff;
+    outline: none;
+}
+
+/* #lineup-container .is-active a{
+    color: white;
+} */
