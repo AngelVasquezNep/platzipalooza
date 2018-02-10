@@ -27,6 +27,13 @@ li a:hover{
     color: #fff;
     margin: 0;
 }
+
+
+#logo-container h1 {
+  margin: 2rem 0;
+  font-size: 3.5em;
+}
+
 #menu-container{
     background-color: #21d8d0;
 }
@@ -89,3 +96,69 @@ li a:hover{
 /* #lineup-container .is-active a{
     color: white;
 } */
+
+
+.orbit-container{
+  height: initial !important; 
+}
+
+
+
+#tickets-container{
+  padding: 1em 0;
+  background-color: #f6e15f;
+  color: #151742;
+}
+
+#tickets-container ul{
+  margin: 1rem 0;
+}
+
+#tickets-container h3{
+  margin: 2rem 0;
+}
+
+
+
+
+
+
+
+.pricing-table {
+  background-color: #fefefe;
+  border: solid 1px #cacaca;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px #cacaca;
+  padding: 0.875rem 1.125rem;
+}
+
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+
+.pricing-table .title {
+  background-color: #0a0a0a;
+  color: #fefefe;
+  border-bottom: 0;
+}
+
+.pricing-table .price {
+  background-color: #e6e6e6;
+  font-size: 2rem;
+  border-bottom: 0;
+}
+
+.pricing-table .description {
+  color: #8a8a8a;
+  font-size: 80%;
+}
+
+.pricing-table :last-child {
+  margin-bottom: 0;
+}
+
