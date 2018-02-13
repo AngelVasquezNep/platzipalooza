@@ -7,6 +7,10 @@ h1,h2,h3, h4, h5, h6, button{
     font-family: 'Bree Serif', serif;
 }
 
+li{
+  list-style: none;
+}
+
 li a:hover{
     background-color: #1c3646;
 }
@@ -35,6 +39,7 @@ li a:hover{
 }
 
 #menu-container{
+    min-height: 40px;
     background-color: #21d8d0;
 }
 #menu-container li a{
@@ -48,7 +53,15 @@ li a:hover{
 }
 
 
+#menuToggle{
+  line-height: 40px;
+  display: block;
+  width: 100%;
+}
 
+#menu-container .show-for-small-only{
+  margin: 0;
+}
 
 
 #tickets-action button:hover{
@@ -162,3 +175,49 @@ li a:hover{
   margin-bottom: 0;
 }
 
+#suscription-container{
+  color: #fff;
+  padding: 2rem 0;
+}
+#suscription-container form{
+  padding: 1rem 0;
+}
+
+
+#info-container{
+  background-color: #161742;
+  color: #fff;
+  padding: 0;
+  padding-top: 1em;
+}
+
+#info-container iframe{
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+#info-container img{
+  display: none;
+}
+
+@media screen and (max-width:842px){
+  #info-container iframe{
+    display: none;
+  }
+  #info-container img{
+    display: initial;
+  }
+} 
+
+.data-sticky{
+  z-index: 10;
+}
+
+#offCanvas,
+#offCanvas .drilldown a{
+  color: #fff;
+  background-color: #C70F4E;
+}
+#offCanvas .drilldown a:hover{
+  background-color: #1E3948;
+}
